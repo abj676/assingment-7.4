@@ -13,6 +13,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
+        // Bundle and string attached
         Bundle username =getIntent().getExtras();
         string= username.getString("Username");
 

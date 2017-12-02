@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 //Validation of email and password
                 if (emailstr.equalsIgnoreCase("Abhishek")&& passwordstr.equalsIgnoreCase("abj")){
 
+                    //Intent with extra data
                     Intent intent=new Intent(MainActivity.this,Main2Activity.class)
                             .putExtra("Username",emailstr);
                     startActivity(intent);
